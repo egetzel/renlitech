@@ -7,14 +7,14 @@ img : helium-theme-post.jpg
 img-mobile : 
 img2 : 
 img3 : 
-author : Antonio Trento
+author : Edaan Getzel
 title2 : 
 title3 : 
 css: 
 js: 
 bgcolor: ff5a71
 keywords: helium, html, css, landing page, jekyll, ruby, web marketing, advertising
-canonical: https://heliumjk.github.io
+canonical: https://renlitech.com
 ---
 {% include JB/setup %}
 
