@@ -4,4 +4,5 @@ _site/
 .sass-cache/
 .jekyll-cache/
 .jekyll-metadata
+find . -name .DS_Store -print0 | xargs -0 git rm --ignore-unmatch
 # End of https://www.gitignore.io/api/jekyll
