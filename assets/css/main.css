@@ -301,7 +301,7 @@ strong {
     margin-bottom: 45px;
 }
 .header-style-3 {
-    background: url(/assets/images/bg/hero-3-bg.jpg) no-repeat left center;
+    background: url(/assets/images/bg/.jpg) no-repeat left center;
     background-size: cover;
     padding-top: 80px;
 }
