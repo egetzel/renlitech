@@ -1,70 +1,55 @@
 ---
 layout: index
-title: Renlitech Consulting
-tagline:
+title: Renlitech
+tagline: Making technology more human
 css:
 js: sliders.js
 keywords: home, index
-canonical: https:renlitech.com
+canonical: https://renlitech.com
 ---
 {% include JB/setup %}
 <!-- Content Area Start -->
 <div id="content">
-  <nav class="navbar navbar-toggleable-sm navbar-light bg-default">
-    <div class="container">
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar5" aria-expanded="false" aria-label="Toggle navigation">
-         <i class="fa fa-bars"></i>
-       </button>
-      <div class="collapse navbar-collapse justify-content-left" id="navbar5">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link" href="index.html">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="about.html">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="contact.html">blah</a>
-          </li>
-        </ul>
-      </div>
-      <a class="navbar-brand" href="index.html"><img src="{{ BASE_PATH }}/assets/images/logo.png" alt=""></a>
-      <div class="collapse navbar-collapse justify-content-end">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link" href="index.html">blah2</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="about.html">blah3</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="contact.html">blah4</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-
-  <div class="mb-60"></div>
-  <!-- HEADER -->
-      <div class="header-style-3">
+  <div id="headers">
+    <!-- Light header -->
+    <header id="header-style-1">
+      <nav class="navbar navbar-toggleable-sm navbar-light bg-faded">
         <div class="container">
+          <a class="navbar-brand" href="index.html"><img src="{{ BASE_PATH }}/assets/images/logo-white.png" alt=""></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation"><i class="fa fa-bars"></i>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarCollapse">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#services">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#work">Work</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <div class="container">
+        <div class="header-caption">
           <div class="row">
-            <div class="col-xs-12 col-sm-6">
-              <figure>
-                <img src="{{ BASE_PATH }}/assets/images/bg/hero-1.png" alt="">
-              </figure>
-            </div>
-            <div class="col-xs-12 col-sm-6">
-              <div class="hero-content-v2">
-                <h3><strong>Renlitech Consulting</strong>Making technology more human</h3>
-                <a href="{{ BASE_PATH }}/#services" class="btn btn-lg btn-default-filled animated fadeInUp">What we do</a>
-              </div>
+            <div class="col-md-12 header-content">
+              <h2 class="header-title animated fadeInDown"><span class="text-primary">Renlitech</span> Consulting</h2>
+              <h5 class="header-text animated fadeIn">Making technology more human</h5>
+              <a href="#services" class="page-scroll btn btn-lg btn-common animated fadeInUp">What we do</a>
             </div>
           </div>
         </div>
       </div>
-  <!-- END HEADER -->
+    </header>
+  </div>
 
       <div class="mb-60"></div>
 	<div id="services" class="container">
@@ -179,7 +164,7 @@ canonical: https:renlitech.com
             <div id="sliders">
               <div class="full-width">
                 <div class="page-header-title">
-                  <h2 class="heading-title text-center">OUR WORK</h2>
+                  <h2 class="heading-title text-center" id="work">OUR WORK</h2>
                 </div>
                 <!-- light slider -->
                 <div id="light-slider" class="carousel slide">
@@ -204,13 +189,12 @@ canonical: https:renlitech.com
                           <div class="carousel-caption">
                             <h3 class="slide-title animated fadeInDown"><span class="text-primary">Excedo</span> </h3>
                             <h5 class="slide-text animated fadeIn">We helped to create the scalable<br> Business English skills.</h5>
-                            <a href="#" class="btn btn-lg btn-default-filled animated fadeInUp">Download Now</a>
                           </div>
                         </div>
                         <div class="carousel-item">
                           <img src="{{ BASE_PATH }}/assets/images/slider/luxury-hotel.png" alt="">
                           <div class="carousel-caption">
-                            <h3 class="slide-title animated fadeInDown"><span class="text-primary">Portier </span>Technologies</h3>
+                            <h3 class="slide-title animated fadeInDown">Portier Technologies</h3>
                             <h5 class="slide-text animated fadeIn">We worked with Portier Technologies to refine their product marketing messaging.</h5>
                             <a href="https://goportier.com" class="btn btn-lg btn-default-filled animated fadeInUp">Visit the Site</a>
                           </div>
@@ -234,7 +218,7 @@ canonical: https:renlitech.com
       <div class="mb-60"></div>
 
       <!-- CONTACT FORM -->
-	<div class="container">
+	<div class="container" id="contact">
 	<div class="row">
           <div class="col-md-8">
             <h3 class="title-head text-center">Get in touch</h3>
