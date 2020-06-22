@@ -1,5 +1,5 @@
 
-  <!-- cards carousel -->
+
   <script>
     $(document).ready(function($) {
       $("#card-carousel").owlCarousel();

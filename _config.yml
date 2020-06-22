@@ -6,7 +6,7 @@ highlighter: null
 markdown: kramdown
 extensions: [fenced_code_blocks]
 excerpt_separator: "<!--more-->"
-url:
+url: https://egetzel.github.io/renlitech/
 baseurl: "/"
 # Themes are encouraged to use these universal variables
 # so be sure to set them if your theme uses them.
@@ -22,7 +22,7 @@ post_limit: 5
 
 title : Renlitech Consulting
 tagline: Making technology more human
-author : 
+author :
   name : Edaan Getzel
   site: https://renlitech.com
   description :
